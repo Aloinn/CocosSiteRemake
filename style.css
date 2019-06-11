@@ -1,0 +1,130 @@
+a{
+  color:white;
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.under{
+  box-shadow: 0px 0px 0px 5px darkorange;
+}
+.below{
+  box-shadow: 0px 20px 0px 0px #343a40;
+}
+.f1{
+  font-family: 'Righteous', cursive;
+}
+.h1{
+  font-size:2.6rem;
+}
+.bg-prim{
+  background-color: darkorange;
+}
+.bg-seco{
+  background-color: orange;
+}
+
+a.txt-white:hover{
+  text-decoration: none;
+  color:white;
+  background-color: darkorange;
+}
+
+.mn-btn:hover{
+  background-color: orange;
+}
+/* NAV BAR AND DROPDOWN STUFF*/
+.nav-link{
+  color:darkorange;
+}
+.nav-link:hover{
+  color:orange;
+}
+
+/* CAROUSEL STUFF */
+.carousel-indicators li{
+  background-color: white;
+  opacity:1;
+  width:20px;
+  height:20px;
+  margin:0px 10px;
+  border-radius: 50%;
+  border: orangered 2px solid;
+  padding: 2px;
+}
+
+.carousel-buttons.active{
+  position:relative;
+  border:0px;
+  width:24px;
+  height:24px;
+  background-color: orangered !important;
+}
+
+.carousel-control{
+  margin:20px;
+  position: absolute;
+  top:50%;
+  transform: translate( 0, -50% );
+  border-radius: 50%;
+  background-color: orange;
+  height:50px;
+  width:50px;
+}
+.carousel-control:hover{
+  background-color: orange;
+  opacity:1;
+}
+/* Dividor */
+.linediv {
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  border-left:1px solid white;
+  border-right:1px solid white;
+  height:auto;
+  width:100%;
+}
+.linediv:first-child{
+  display:none;
+}
+.linediv:last-child{
+  display:none;
+}
+/* TOP TEAS */
+.wood{
+  background-image: url("wood-pattern.png");
+  background-repeat: repeat;
+}
+.brick{
+  background-color:#ffa200;
+  background-image: url("crisp-paper-ruffles.png");
+  background-repeat: repeat;
+}
+#carouselBanner{}
+@media (min-width: 768px) {
+  .linediv{
+    width:1px;
+  }
+  .linediv:first-child{
+    display:block;
+  }
+  .linediv:last-child{
+    display:block;
+  }
+  .carousel-control{
+    height:80px;
+    width:80px;
+  }
+  #img1{
+    content:url("img1.jpg");
+  }
+  #img2{
+    content:url("img2.png")
+  }
+  #img3{
+    content:url("img3.png")
+  }
+}
