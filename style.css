@@ -80,12 +80,14 @@ a.txt-white:hover{
 }
 /* Dividor */
 .linediv {
-  border-top:1px solid white;
-  border-bottom:1px solid white;
-  border-left:1px solid white;
-  border-right:1px solid white;
+  border: 1px solid;
+  border-color: white;
+
   height:auto;
   width:100%;
+}
+.linediv-nav{
+  border-color:orange;
 }
 .linediv:first-child{
   display:none;
@@ -104,6 +106,13 @@ a.txt-white:hover{
   background-repeat: repeat;
 }
 #carouselBanner{}
+/* SMALL AND UP*/
+@media (min-width: 576px) {
+  .linediv-nav{
+    border-color: transparent !important;
+  }
+}
+/* MD SCREEN*/
 @media (min-width: 768px) {
   .linediv{
     width:1px;

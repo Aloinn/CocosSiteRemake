@@ -16,35 +16,40 @@
   <body>
     <!-- NAV BAR-->
     <div id="nav" class="sticky-top">
-      <nav class="navbar sticky-top under mb-1 navbar-expand bg-light text-primary">
+      <nav class="navbar sticky-top under mb-1 navbar-expand-sm bg-light text-primary">
         <div class="container">
           <a href="#" class="navbar-brand">
             <img src="logo.png">
           </a>
-          <ul class="navbar-nav ml-auto">
 
-            <li class="nav-item dropdown">
-              <a class="nav-link f1" href="#navAboutDrop"
-                    data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navAboutDrop">
-                    About
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link f1" href="#">Locations</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link f1" href="#">Products</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link f1" href="#navFranchiseDrop"
-                    data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navFranchiseDrop">
-                    Franchise
-              </a>
-            </li>
-          </ul>
+          <button class="bg-seco navbar-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navnavigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navnavigation">
+            <ul class="navbar-nav text-center ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link f1" href="#navAboutDrop"
+                      data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navAboutDrop">
+                      About
+                </a>
+              </li>
+              <div class="linediv linediv-nav"></div>
+              <li class="nav-item">
+                <a class="nav-link f1" href="#">Locations</a>
+              </li>
+              <div class="linediv linediv-nav"></div>
+              <li class="nav-item">
+                <a class="nav-link f1" href="#">Products</a>
+              </li>
+              <div class="linediv linediv-nav"></div>
+              <li class="nav-item dropdown">
+                <a class="nav-link f1" href="#navFranchiseDrop"
+                      data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navFranchiseDrop">
+                      Franchise
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -66,6 +71,7 @@
         </div>
       </div>
     </div>
+
     <!--IMAGE-->
     <div id="carouselBanner" height="100" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
