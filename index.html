@@ -25,7 +25,8 @@
           <button class="bg-seco navbar-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navnavigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navnavigation">
+
+          <div class="collapse navbar-collapse" data-parent="#nav" id="navnavigation">
             <ul class="navbar-nav text-center ml-auto">
               <li class="nav-item dropdown">
                 <a class="nav-link f1" href="#navAboutDrop"
@@ -53,21 +54,31 @@
         </div>
       </nav>
 
-      <div class="collapse bg-seco w-100 text-center" data-parent="#nav" id="navAboutDrop">
-        <div class="py-2 container collapse-bar bg-seco">
-          <a class="col " href="#">Our Brand</a>
-          <a class="col " href="#">Our History</a>
-          <a class="col " href="#">Our vision</a>
-          <a class="col " href="#">News</a>
+      <div class="collapse bg-seco w-100" data-parent="#nav" id="navAboutDrop">
+        <div class="container">
+          <div class="row text-center collapse-bar bg-seco">
+            <a class="py-2 col-sm" href="#">Our Brand</a>
+            <div class="linediv"></div>
+            <a class="py-2 col-sm" href="#">Our History</a>
+            <div class="linediv"></div>
+            <a class="py-2 col-sm" href="#">Our vision</a>
+            <div class="linediv"></div>
+            <a class="py-2 col-sm" href="#">News</a>
+          </div>
         </div>
       </div>
 
       <div class="collapse bg-seco w-100 text-center" data-parent="#nav" id="navFranchiseDrop">
-        <div class="py-2 container collapse-bar bg-seco">
-          <a class="col " href="#">Application</a>
-          <a class="col " href="#">Our advantage</a>
-          <a class="col " href="#">Partner story</a>
-          <a class="col " href="#">FAQ</a>
+        <div class="container">
+          <div class="row collapse-bar bg-seco">
+            <a class="py-2 col-sm" href="#">Application</a>
+            <div class="linediv"></div>
+            <a class="py-2 col-sm" href="#">Our advantage</a>
+            <div class="linediv"></div>
+            <a class="py-2 col-sm" href="#">Partner story</a>
+            <div class="linediv"></div>
+            <a class="py-2 col-sm" href="#">FAQ</a>
+          </div>
         </div>
       </div>
     </div>
